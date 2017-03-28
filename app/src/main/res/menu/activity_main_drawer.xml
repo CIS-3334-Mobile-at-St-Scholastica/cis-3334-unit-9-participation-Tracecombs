@@ -18,6 +18,29 @@
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
             android:title="Tools" />
+        <menu>
+            <item
+                android:id="@+id/nav_Add"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="Add" />
+
+            <item
+                android:id="@+id/nav_Delete"
+                android:icon="@android:drawable/ic_input_delete"
+                android:title="Delete" />
+            <item
+                android:id="@+id/nav_Settings"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Settings" />
+        </menu>
+        <item
+            android:id="@+id/nav_Email"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Email" />
+        <item
+            android:id="@+id/nav_SMS"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="SMS" />
     </group>
 
     <item android:title="Communicate">
@@ -34,3 +57,4 @@
     </item>
 
 </menu>
+
